@@ -25,7 +25,9 @@ The code for the Push Plugin for NativeScript.
 
 		tns platform add android
 
-- Add google play services, as GCM is part of it. It's present in the android-sdk. Add it like this:
+- Add google play services, as GCM is part of it. 
+- It is present in the android-sdk. The path can be different on your machine. If you cannot find it check where is installed the android-sdk.
+- Add it like this:
 
 		tns library add android C:\Users\your_user_name\AppData\Local\Android\android-sdk\extras\google\google_play_services\libproject\google-play-services_lib\libs
 
